@@ -19,11 +19,11 @@ I am an electrical engineering student building a practical foundation in semico
 
 ## Project repositories — active and planned
 
-The MOSFET project repository has been initialized; its experiments are still planned. The remaining project links will become active when those repositories are created.
+The MOSFET, ALU, and ADC projects are initialized. Their starter files are available, but experimentally verified results are still pending. The AI accelerator repository remains planned.
 
 - [MOSFET characterization](https://github.com/ZAIDRAR/mosfet-characterization) — repository initialized; experiments pending
-- [8-bit ALU in Verilog](https://github.com/ZAIDRAR/8bit-alu-verilog) — planned
-- [CMOS ADC design](https://github.com/ZAIDRAR/cmos-adc-design) — planned
+- [8-bit ALU in Verilog](https://github.com/ZAIDRAR/8bit-alu-verilog) — repository initialized; RTL and testbench added, verification pending
+- [CMOS ADC design](https://github.com/ZAIDRAR/cmos-adc-design) — repository initialized; theoretical reference model and experiment plans added, circuit simulations pending
 - [Tiny AI accelerator](https://github.com/ZAIDRAR/tiny-ai-accelerator) — planned
 
 ## Progress and documentation
