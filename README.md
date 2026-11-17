@@ -17,11 +17,11 @@ I am an electrical engineering student building a practical foundation in semico
 | TCAD simulations | [06 — Device modeling](06-tcad-simulations/README.md) | Set up a simple numerical semiconductor device model |
 | AI hardware | [07 — Accelerators](07-ai-hardware/README.md) | Design a small multiply-accumulate datapath |
 
-## Project repositories — planned
+## Project repositories — active and planned
 
-These links will become active once their separate repositories have been created and populated.
+The MOSFET project repository has been initialized; its experiments are still planned. The remaining project links will become active when those repositories are created.
 
-- [MOSFET characterization](https://github.com/ZAIDRAR/mosfet-characterization) — planned
+- [MOSFET characterization](https://github.com/ZAIDRAR/mosfet-characterization) — repository initialized; experiments pending
 - [8-bit ALU in Verilog](https://github.com/ZAIDRAR/8bit-alu-verilog) — planned
 - [CMOS ADC design](https://github.com/ZAIDRAR/cmos-adc-design) — planned
 - [Tiny AI accelerator](https://github.com/ZAIDRAR/tiny-ai-accelerator) — planned
