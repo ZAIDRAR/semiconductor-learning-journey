@@ -14,3 +14,7 @@ Design a signed or unsigned MAC module in Verilog with a clearly specified width
 
 ## Follow-up
 Extend to a small 2×2 processing-element array only after verifying the basic MAC.
+
+## Artifact evidence — 18 November 2026
+
+The existing signed MAC now has Python-reference RTL verification and generic synthesis evidence; the 2×2 array remains planned. See the [Operation X audit](../docs/operation-x-review-2026-11-18.md). This does not automatically complete the learner competence goals above.
