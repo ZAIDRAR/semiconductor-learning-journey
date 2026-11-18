@@ -14,3 +14,7 @@ Implement an 8-bit ALU supporting addition, subtraction, AND, OR and XOR. Define
 
 ## Suggested tools
 Icarus Verilog or Verilator, GTKWave and Yosys.
+
+## Artifact evidence — 18 November 2026
+
+The existing ALU now has an exhaustive binary-input regression and generic synthesis evidence. See the [Operation X audit](../docs/operation-x-review-2026-11-18.md). This does not automatically complete the learner competence goals above.

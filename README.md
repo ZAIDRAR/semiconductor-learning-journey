@@ -1,7 +1,7 @@
 # Semiconductor Engineering Learning Journey
 
 **Owner:** [ZAIDRAR](https://github.com/ZAIDRAR)  
-**Status:** Learning in progress — documentation and proposed experiments, not claims of completed projects.
+**Status:** Learning in progress. The existing ALU and MAC now have executed RTL verification and generic synthesis evidence (18 November 2026). Analog circuits, TCAD and physical implementations remain in progress or planned.
 
 I am an electrical engineering student building a practical foundation in semiconductor physics, CMOS electronics, analog/mixed-signal design, digital VLSI, device simulation, and AI hardware.
 
@@ -19,16 +19,19 @@ I am an electrical engineering student building a practical foundation in semico
 
 ## Project repositories — active and planned
 
-All four dedicated projects are initialized. Starter files are available, but experimentally verified results are still pending.
+All four dedicated projects are initialized. The [Operation X audit](docs/operation-x-review-2026-11-18.md) records exact inspected revisions and distinguishes verified RTL results from remaining experiments.
 
 - [MOSFET characterization](https://github.com/ZAIDRAR/mosfet-characterization) — repository initialized; experiments pending
-- [8-bit ALU in Verilog](https://github.com/ZAIDRAR/8bit-alu-verilog) — repository initialized; RTL and testbench added, verification pending
+- [8-bit ALU in Verilog](https://github.com/ZAIDRAR/8bit-alu-verilog) — 524,288 exhaustive binary-input vectors passed; generic synthesis recorded
 - [CMOS ADC design](https://github.com/ZAIDRAR/cmos-adc-design) — repository initialized; theoretical reference model and experiment plans added, circuit simulations pending
-- [Tiny AI accelerator](https://github.com/ZAIDRAR/tiny-ai-accelerator) — repository initialized; signed MAC RTL, reference model and testbench added, HDL simulation pending
+- [Tiny AI accelerator](https://github.com/ZAIDRAR/tiny-ai-accelerator) — signed MAC verified against Python over 142,123 cycles; 2×2 array planned
 
 ## Progress and documentation
 
-- [Learning roadmap](roadmap.md)
+- [Prioritized engineering roadmap](roadmap.md)
+- [Audit and verified results](docs/operation-x-review-2026-11-18.md)
+- [15 practical project levels and specifications](docs/engineering-projects.md)
+- [Books, legal free resources and chapter guide](docs/resource-guide.md)
 - [Learning log](learning-log.md)
 - [Documentation method](docs/documentation-method.md)
 - [Experiment report template](templates/experiment-report.md)
@@ -42,4 +45,4 @@ All four dedicated projects are initialized. Starter files are available, but ex
 4. Explain the difference between expected and observed results.
 5. Share verified findings, limitations, and next steps.
 
-> All topic folders currently contain learning plans. Experimental results should only be published after actual verification.
+> Topic folders remain learning plans until understanding is demonstrated. Dated verification reports establish only the specific tests and conditions they describe.
